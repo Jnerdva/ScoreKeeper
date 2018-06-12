@@ -10,8 +10,6 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     int scoreA = 0;
     int scoreB = 0;
-
-
     private Button plusThreeA;
     private Button plusTwoA;
     private Button freeShotA;
@@ -28,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         plusThreeA = findViewById(R.id.plus_three_A);
         plusThreeA.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -93,11 +90,9 @@ public class MainActivity extends AppCompatActivity {
         start = findViewById(R.id.start);
         mMediaPlayer=MediaPlayer.create(this,R.raw.mysong);
         mMediaPlayer.setLooping(true);
-
-        start.setOnClickListener(new View.OnClickListener() {
+       start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 mMediaPlayer.start();
             }
         });
