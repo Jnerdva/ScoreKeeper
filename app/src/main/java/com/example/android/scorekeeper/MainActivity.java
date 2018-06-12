@@ -8,7 +8,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    int scoreA = 0, scoreB = 0;
+    int scoreA = 0;
+    int scoreB = 0;
 
 
     private Button plusThreeA;
