@@ -83,9 +83,7 @@ public class MainActivity extends AppCompatActivity {
                 display_score_team_A(scoreA);
                 display_score_team_B(scoreB);
                 mMediaPlayer.pause();
-
-
-            }
+              }
         });
         start = findViewById(R.id.start);
         mMediaPlayer=MediaPlayer.create(this,R.raw.mysong);
