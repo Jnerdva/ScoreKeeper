@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                 scoreB=0;
                 display_score_team_A(scoreA);
                 display_score_team_B(scoreB);
-                mMediaPlayer.stop();
+                mMediaPlayer.pause();
 
 
             }
@@ -100,6 +100,11 @@ public class MainActivity extends AppCompatActivity {
                 mMediaPlayer.start();
             }
         });
+    }
+      @Override
+    protected void onStop() {
+        super.onStop();
+        mMediaPlayer.release();
     }
     // Display methods for showing scores foe two teams
     public void display_score_team_A(int score){
