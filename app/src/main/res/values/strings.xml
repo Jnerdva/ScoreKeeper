@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="plus_three">+3</string>
+    <string name="plus_two">+2</string>
+    <string name="free_shot">Free Shot</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+    <string name="score_a">0</string>
+    <string name="score_b">0</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="time">seconds remaining:</string>
+    <string name="times_up">Time\'s Up!</string>
+    <string name="Team_A_Wins">Team A Wins</string>
+    <string name="Team_B_Wins">Team B Wins</string>
+    <string name="draw">Draw</string>
+
+</resources>
